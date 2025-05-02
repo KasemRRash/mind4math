@@ -1,27 +1,50 @@
-# mind4math
-Ein Taschenrechner für Informatiker | Grundlagen der Mathematik und Informatik visuell anwenden
+# 🧠 Mind4Math – Dein visueller Mathematik-Begleiter für JavaFX
 
-Mind4Math ist eine JavaFX-Anwendung, die Inhalte aus meinem ersten Semester Informatikstudium bündelt. Sie dient sowohl der Vertiefung meiner Java-GUI-Kenntnisse als auch der automatischen Berechnung mathematischer Aufgaben wie ggT, kgV, Fibonacci, Fakultät, Primzahltests und erweiterter euklidischer Algorithmus.
+**Ein interaktiver Taschenrechner für Informatik-Studierende:**  
+Grundlagen der Mathematik und Informatik visuell erleben und verstehen.
 
-Die Anwendung hilft mir, Mathematikaufgaben einfacher zu überprüfen und das Verständnis für mathematische Konzepte praktisch zu festigen.
+---
 
+**Mind4Math** ist eine JavaFX-Anwendung, die zentrale Inhalte aus meinem ersten Informatiksemester aufgreift und in einer modernen Benutzeroberfläche erlebbar macht. Das Projekt verbindet **mathematische Logik** mit **praktischer Java-GUI-Programmierung** – ideal zum Lernen, Üben und Vertiefen.
 
-<h3>1. Idee (ohne JavaFX):</h3>
+## ✨ Features
+- ✔️ **ggT** & **kgV** automatisch berechnen  
+- 📈 **Fibonacci-Folge** & **Fakultäten** visualisieren  
+- 🔍 **Primzahltests** durchführen  
+- 🔄 **Erweiterter euklidischer Algorithmus** verständlich erklärt  
+- 🧩 Kompakte, modulare Java-Architektur mit JavaFX
+
+---
+
+## 🎯 Ziel des Projekts
+
+Dieses Tool hilft mir, komplexe mathematische Konzepte interaktiv zu begreifen und gleichzeitig meine Java-Kenntnisse – insbesondere im Umgang mit JavaFX – zu verbessern.
+
+---
+
+## 💡 Vom Konzept zur Anwendung
+
+**Erste Idee (Skizze ohne GUI):**  
 <img src="https://github.com/user-attachments/assets/e10da24e-5b51-4a64-b478-11e1c2b24628" width="400"/>
 
-<h3>2. Idee (mit JavaFX):</h3>
+**Zweite Idee (JavaFX-Oberfläche):**  
 <img src="https://github.com/user-attachments/assets/5258174a-38aa-40ae-8016-a8a4ad7087d6" width="400"/>
 
-<h3>🖥️ Systemvoraussetzungen:</h3>
-<ul>
-  <li>Java 17 oder neuer</li>
-  <li>JavaFX SDK</li>
-  <li>Entwicklungsumgebung wie IntelliJ IDEA, Eclipse oder VS Code</li>
-</ul>
+---
 
+## ⚙️ Systemvoraussetzungen
+- Java **17** oder höher  
+- JavaFX SDK (z. B. OpenJFX)  
+- IDE wie **IntelliJ IDEA**, **Eclipse** oder **VS Code**
+
+---
+
+## 🧪 Vorschau
 <img src="https://github.com/user-attachments/assets/f2d14ae1-db74-42b7-90c0-ebb204e7eedd" width="400"/>
 
+---
 
+## 📌 Hinweis
 
-**📌 Hinweis**
-Dieses Projekt ist Teil meines persönlichen Lernwegs und nicht für produktiven Einsatz gedacht, aber sehr hilfreich für alle, die JavaFX und Mathe kombinieren möchten!
+> Dieses Projekt ist Teil meines persönlichen Lernwegs – **nicht für den produktiven Einsatz gedacht**, aber ideal für alle, die JavaFX praktisch lernen und mathematische Grundlagen spielerisch vertiefen möchten.
+

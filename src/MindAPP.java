@@ -19,25 +19,23 @@ public class MindAPP extends Application {
 
     @Override
     public void start(Stage stage) {
-        // 1. Video-Hintergrund
+        // video im Hintergrund laufen lassen
         String pfad = "resources/neurons.mp4";
         Media media = new Media(new File(pfad).toURI().toString());
         MediaPlayer player = new MediaPlayer(media);
         player.setCycleCount(MediaPlayer.INDEFINITE);
         player.setMute(true);
 
-        player.setOnReady(() -> player.play()); // Warten, bis Video bereit ist
+        player.setOnReady(() -> player.play()); // warten, bis Video bereit ist
 
   
         MediaView mediaView = new MediaView(player);
         mediaView.setPreserveRatio(false);
 
-        // 2. Overlay
         Region overlay = new Region();
         overlay.setStyle("-fx-background-color: rgba(0, 0, 0, 0.5);");
         overlay.setMouseTransparent(true);
 
-        // 3. GUI-Inhalt
         ImageView logo = new ImageView(new Image(new File("resources/mind4mathlogo2.png").toURI().toString()));
         logo.setFitWidth(100);
         logo.setPreserveRatio(true);
@@ -105,7 +103,7 @@ public class MindAPP extends Application {
         inhalt.setAlignment(Pos.CENTER);
         inhalt.setMaxWidth(400);
 
-        // 4. Root mit Video + Overlay + Inhalt
+
         StackPane root = new StackPane(mediaView, overlay, inhalt);
         Scene scene = new Scene(root, 800, 600);
 
@@ -114,7 +112,7 @@ public class MindAPP extends Application {
         mediaView.fitWidthProperty().bind(scene.widthProperty());
         mediaView.fitHeightProperty().bind(scene.heightProperty());
 
-        // 5. Fenster anzeigen
+    
         stage.setTitle("Mind4Math – Dein Mathe-Assistent");
         stage.setScene(scene);
         stage.show();

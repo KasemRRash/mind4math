@@ -28,7 +28,7 @@ Dieses Tool hilft mir, komplexe mathematische Konzepte interaktiv zu begreifen u
 <img src="https://github.com/user-attachments/assets/e10da24e-5b51-4a64-b478-11e1c2b24628" width="400"/>
 
 **Zweite Idee (JavaFX-Oberfläche):**  
-<img src="https://github.com/user-attachments/assets/5258174a-38aa-40ae-8016-a8a4ad7087d6" width="400"/>
+<img src="https://github.com/user-attachments/assets/8e8c49dc-7b5f-4924-ac09-f1aadd032bcf" width="400"/>
 
 ---
 

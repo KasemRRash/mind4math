@@ -18,18 +18,18 @@ public class Mind4MathUI extends JFrame {
         setSize(450, 600);
         setLocationRelativeTo(null);
 
-        // Farben
+
         Color orange = new Color(255, 102, 0);
         Color rot = new Color(255, 51, 51);
         Color hintergrundWeiß = Color.WHITE;
 
-        // Hauptpanel
+        //HAUPT
         JPanel hauptPanel = new JPanel();
         hauptPanel.setBackground(hintergrundWeiß);
         hauptPanel.setLayout(new BoxLayout(hauptPanel, BoxLayout.Y_AXIS));
         hauptPanel.setBorder(BorderFactory.createEmptyBorder(20, 30, 20, 30));
 
-        // Logo
+        // logo
         try {
             BufferedImage logo = ImageIO.read(new File("logo.png"));
             JLabel logoLabel = new JLabel(new ImageIcon(logo.getScaledInstance(160, 160, Image.SCALE_SMOOTH)));
@@ -39,35 +39,34 @@ public class Mind4MathUI extends JFrame {
             System.out.println("Logo konnte nicht geladen werden.");
         }
 
-        // Titel
+
         JLabel titel = new JLabel("");
         titel.setFont(new Font("SansSerif", Font.BOLD, 18));
         titel.setAlignmentX(Component.CENTER_ALIGNMENT);
         hauptPanel.add(titel);
 
-        // Beschreibung
+
         JLabel beschreibung = new JLabel("Grundlagen der Mathematik und Informatik visuell anwenden");
         beschreibung.setFont(new Font("SansSerif", Font.PLAIN, 16));
         beschreibung.setAlignmentX(Component.CENTER_ALIGNMENT);
         hauptPanel.add(Box.createVerticalStrut(10));
         hauptPanel.add(beschreibung);
 
-        // Abstand
+
         hauptPanel.add(Box.createVerticalStrut(20));
 
-        // Eingabefelder initialisieren
         feldA = new JTextField();
         feldB = new JTextField();
         styleTextField(feldA);
         styleTextField(feldB);
 
-        // Eingaben
+
         hauptPanel.add(erzeugeEingabeBlock("Zahl A:", feldA));
         hauptPanel.add(Box.createVerticalStrut(10));
         hauptPanel.add(erzeugeEingabeBlock("Zahl B:", feldB));
         hauptPanel.add(Box.createVerticalStrut(20));
 
-        // Buttons-Bereich
+
         JPanel buttonPanel = new JPanel();
         buttonPanel.setLayout(new BoxLayout(buttonPanel, BoxLayout.Y_AXIS));
         buttonPanel.setBackground(hintergrundWeiß);
@@ -83,8 +82,8 @@ public class Mind4MathUI extends JFrame {
         hauptPanel.add(buttonPanel);
         hauptPanel.add(Box.createVerticalStrut(20));
 
-        // Ergebnis-Anzeige
-     // Ergebnisfeld als Panel mit Label innen
+      
+
         JPanel ergebnisPanel = new JPanel();
         ergebnisPanel.setBackground(new Color(255, 248, 240)); // helles Orange
         ergebnisPanel.setBorder(BorderFactory.createCompoundBorder(
@@ -107,10 +106,9 @@ public class Mind4MathUI extends JFrame {
         
         setVisible(true);
         
-     // Abstand zum Footer
+  
         hauptPanel.add(Box.createVerticalStrut(30));
 
-        // Footer / Copyright
         JLabel footer = new JLabel("© Kasem Rashrash 2025", SwingConstants.CENTER);
         footer.setFont(new Font("SansSerif", Font.PLAIN, 12));
         footer.setForeground(Color.GRAY);

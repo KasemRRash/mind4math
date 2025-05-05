@@ -39,7 +39,7 @@ Dieses Tool hilft mir, komplexe mathematische Konzepte interaktiv zu begreifen u
 
 ---
 
-## Vorschau
+## Installation
 <img src="https://github.com/user-attachments/assets/f2d14ae1-db74-42b7-90c0-ebb204e7eedd" width="400"/>
 
 ---
